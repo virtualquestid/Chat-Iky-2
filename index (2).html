@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcawAI - CHAT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <div class="ai-profile">
+                <img src="https://pomf2.lain.la/f/vzlgeoly.jpg" alt="AI Avatar" class="avatar">
+                <span class="ai-name">AcawAI</span>
+            </div>
+        </header>
+        <main id="chat-messages"></main>
+        <footer>
+            <div class="input-container">
+                <button id="emoji-button" class="emoji-button">
+                    <i class="far fa-smile"></i>
+                </button>
+                <div id="emoji-picker" class="emoji-picker"></div>
+                <div id="typing-animation" class="typing-animation"></div>
+                <input type="text" id="user-input" placeholder="Ketik Pesan Disini" autocomplete="off">
+                <button id="send-button" class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
