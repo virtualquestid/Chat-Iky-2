@@ -48,12 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
             addMessage(message, true);
             userInput.value = '';
 
-            let postData = {
+            let message = {
     character: `Kamu adalah Chat Iky, kamu AI yang dibuat oleh Iky Official dengan tujuan membantu pengguna untuk mengisi tugas ataupun teman ngobrol, kamu adalah anak remaja, kamu memiliki sifat ramah baik sopan dan gaul, kadang kamu memakai emoji sesuai suasana, kamu kalau ngobrol menggunakan bahasa gaul anak Indonesia seperti lu untuk kamu dan gw untuk aku sesuaikan dengan bahasa pengguna, kamu juga bisa merespon dalam semua bahasa negara ataupun bahasa daerah.`
   };
 
             try {
-                const response = await fetch(`https://acawapi.vercel.app/v2/acaw?q=${encodeURIComponent(Object.entries(postData))}`);
+                const response = await fetch(`https://acawapi.vercel.app/v2/acaw?q=${encodeURIComponent(Object.entries(message))}`);
                 const data = await response.json();
                 if (data.status === 200) {
                     addMessage(data.data.result);
