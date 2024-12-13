@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #ff7f00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +142,7 @@ footer {
   border: 1px solid rgba(200, 200, 200, 0.3);
 }
 .textiky1 {
-  color: white;
+  color: black;
   font-weight: bold;
   margin-top: 15px;
   margin-left: 20px;
