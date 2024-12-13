@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.classList.add(isUser ? 'user' : 'ai');
 
         const avatar = document.createElement('img');
-        avatar.src = isUser ? 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=30' : 'https://pomf2.lain.la/f/vzlgeoly.jpg';
+        avatar.src = isUser ? 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=30' : 'https://files.catbox.moe/1pihih.jpg';
         avatar.alt = isUser ? 'User Avatar' : 'AI Avatar';
         avatar.classList.add('message-avatar');
 
