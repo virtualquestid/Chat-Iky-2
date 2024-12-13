@@ -18,7 +18,7 @@ body {
 .chat-container {
     width: 100%;
     max-width: 800px;
-    height: 130vh;
+    height: 100vh;
     max-height: 800px;
     background-color: #ffffff;
     display: flex;
@@ -31,7 +31,7 @@ body {
 header {
     background-color: #ffffff;
     color: #000000ff;
-    padding: 10px 15px;
+    padding: 15px 20px;
 }
 
 .ai-profile {
@@ -129,8 +129,9 @@ footer {
     padding: 10px;
     background: transparent;
 }
+
 .textiky {
-  background-color: green; /* Membuat latar belakang transparan */
+  background-color: orange; /* Membuat latar belakang transparan */
   border: 1px solid #33FF00; /* Memberikan border tipis warna abu-abu */
   padding: 10px;
   list-style: none;
@@ -157,29 +158,4 @@ footer {
   background-repeat: no-repeat;
   background-size: 7em;
   background-position: right;
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-
-@media screen and (min-width:1024px) {
-  a.navbar-brand {
-    text-align: center;
-  }
-
-  .buttonSubmit {
-    margin-right: 42em;
-  }
-
-  #input {
-    width: 50rem;
-  }
-
 }
