@@ -18,7 +18,7 @@ body {
 .chat-container {
     width: 100%;
     max-width: 800px;
-    height: 50vh;
+    height: 200vh;
     max-height: 800px;
     background-color: #ffffff;
     display: flex;
