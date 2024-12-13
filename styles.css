@@ -12,13 +12,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
 }
 
 .chat-container {
     width: 100%;
     max-width: 800px;
-    height: 100vh;
+    height: 150vh;
     max-height: 800px;
     background-color: #ffffff;
     display: flex;
