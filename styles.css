@@ -130,19 +130,6 @@ footer {
     background: transparent;
 }
 
-.textiky {
-  background-color: green; /* Membuat latar belakang transparan */
-  border: 1px solid #33FF00; /* Memberikan border tipis warna abu-abu */
-  padding: 10px;
-  list-style: none;
-  border-radius: 10px;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(200, 200, 200, 0.3);
-}
-
 .textiky1 {
   color: white;
   font-weight: bold;
