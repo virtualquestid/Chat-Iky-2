@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
             try {
-                const response = await fetch(`https://aihub.xtermai.xyz?q=${encodeURIComponent(Object.entries(postData))}`);
+                const response = await fetch(`https://aihub.xtermai.xyz=${encodeURIComponent(Object.entries(postData))}`);
                 const data = await response.json();
                 if (data.status === 200) {
                     addMessage(data.data.result);
